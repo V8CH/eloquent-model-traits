@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "V8CH\\EloquentModelTraits\\": "src/EloquentModelTraits"
+    }
+  },
+  "description": "Utility traits for use in Laravel Eloquent ORM models",
+  "name": "v8ch/eloquent-model-traits",
+  "require": {
+    "php": "^7.0"
+  },
+  "version": "0.1.0"
+}
