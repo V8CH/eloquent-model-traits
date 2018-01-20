@@ -17,10 +17,8 @@ trait CreatesUuids
      */
     protected static function boot()
     {
-        /** @noinspection PhpUndefinedClassInspection */
         parent::boot();
 
-        /** @noinspection PhpUndefinedMethodInspection */
         static::creating(function (Model $model) {
             $model->{$model->getKeyName()} = Uuid::uuid1()->toString();
         });
